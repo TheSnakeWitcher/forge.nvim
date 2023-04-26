@@ -23,7 +23,7 @@ function forge.exec(args)
     Terminal:new({
         cmd = "forge" ,
         args = args,
-        direction = "float",
+        direction = forge.options.direction,
         close_on_exit = false,
     }):toggle()
 end
